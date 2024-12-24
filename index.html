@@ -166,8 +166,8 @@
   <h2 class="title is-4" style="text-align: center;">Visualizations on Images in the wild.</h2>
   <div class="container is-max-desktop">
     <div style="text-align: center; border: green solid 0px;">
-      <img alt="" id="wild1" width="70%" src="static/images/wild1.pdf" style="display: inline-block; vertical-align: middle;" />
-      <img alt="" id="wild2" width="70%" src="static/images/wild2.pdf" style="margin: 0 auto" />
+      <img alt="" id="wild1" width="70%" src="static/images/wild1.png" style="display: inline-block; vertical-align: middle;" />
+      <img alt="" id="wild2" width="70%" src="static/images/wild2.png" style="margin: 0 auto" />
     </div>
   </div>
 </section>
@@ -178,32 +178,56 @@
     <div class="columns is-centered">
       <div class="column is-full-width">
         <br>
-        <div class="video-grid-2">
-        <video poster="" id="car" autoplay muted loop playsinline height="10%">
-          <source src="./videos/model_car.mov"
-                  type="video/mp4">
-        </video>
-        <video poster="" id="chara" autoplay muted loop playsinline height="10%">
-          <source src="./videos/model_chara.mov"
-                  type="video/mp4">
-        </video>
+          <div class="video-grid">
+            <video poster="" id="sakura" autoplay muted loop playsinline>
+                <source src="./videos/sakura_clip.mov" type="video/mp4">
+            </video>
+            <video poster="" id="jojo" autoplay muted loop playsinline>
+              <source src="./videos/jojo_clip.mov" type="video/mp4">
+            </video>
+          </div>
+        <div class="video-grid">
+            <video poster="" id="ade" autoplay muted loop playsinline>
+                <source src="./videos/model_car.mov" type="video/mp4">
+            </video>
+            <video poster="" id="chara" autoplay muted loop playsinline>
+              <source src="./videos/model_chara.mov" type="video/mp4">
+            </video>
           </div>
       </div>
     </div>
-  </div>
+      </div>
+    <div class="video-grid-3">
+            <video poster="" id="pig" autoplay muted loop playsinline>
+                <source src="./videos/pig_overlay_clip.mp4" type="video/mp4">
+            </video>
+            <video poster="" id="plane" autoplay muted loop playsinline>
+              <source src="./videos/plane1_clip.mov" type="video/mp4">
+            </video>
+          <video poster="" id="car" autoplay muted loop playsinline>
+              <source src="./videos/car_clip.mov" type="video/mp4">
+            </video>
+          </div>
 </section>
 
 
 <section class="hero is-small" style="margin-top: 50px; padding-top: 0px;">
   <h2 class="title is-4" style="text-align: center;">Qualitative Comparison</h2>
   <div class="hero-body">
-    
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-          <img src="./static/images/objectron.pdf" width="70%">
-          <img src="./static/images/ark.pdf" width="70%">
-          <img src="./static/images/sunrgbd.pdf" width="70%">
-          <img src="./static/images/kitti.pdf" width="70%">
+        <div style="text-align: center; border: green solid 0px;">
+          <img src="./static/images/objectron.png" width="80%">
+          </div>
+        <div style="text-align: center; border: green solid 0px;">
+          <img src="./static/images/ark.png" width="80%">
+          </div>
+          <div style="text-align: center; border: green solid 0px;">
+          <img src="./static/images/sunrgbd.png" width="80%">
+            </div>
+          <div style="text-align: center; border: green solid 0px;">
+          <img src="./static/images/kitti.png" width="80%">
+            </div>
       </div>
     </div>
     
@@ -218,27 +242,45 @@
     <div class="container" style="margin-top: 5px; padding-top: 0px;">
       <h1 class="caption"><b>Object Direction Recognition</b></h1>
       <div id="Direction" class="carousel results-carousel">
-          <img src="./static/images/2.pdf" width="70%">
-          <img src="./static/images/3.pdf" width="70%">
-          <img src="./static/images/1.pdf" width="70%">
+          <div style="text-align: center; border: green solid 0px;">
+          <img src="./static/images/2.png" width="80%">
+            </div>
+          <div style="text-align: center; border: green solid 0px;">
+          <img src="./static/images/3.png" width="80%">
+            </div>
+          <div style="text-align: center; border: green solid 0px;">
+          <img src="./static/images/1.png" width="80%">
+            </div>
       </div>
     </div>
 
     <div class="container" style="margin-top: 5px; padding-top: 0px;">
       <h1 class="caption"><b>Spatial Part Reasoning</b></h1>
       <div id="Part" class="carousel results-carousel">
-          <img src="./static/images/4.pdf" width="100%">
-          <img src="./static/images/6.pdf" width="100%">
-          <img src="./static/images/5.pdf" width="100%">
+          <div style="text-align: center; border: green solid 0px;">
+          <img src="./static/images/4.png" width="80%">
+            </div>
+          <div style="text-align: center; border: green solid 0px;">
+          <img src="./static/images/6.png" width="80%">
+            </div>
+          <div style="text-align: center; border: green solid 0px;">
+          <img src="./static/images/5.png" width="80%">
+            </div>
       </div>
     </div>
 
     <div class="container" style="margin-top: 5px; padding-top: 0px;">
       <h1 class="caption"><b>Spatial Relation Reasoning</b></h1>
       <div id="Relation" class="carousel results-carousel">
-          <img src="./static/images/8.pdf" width="100%">
-          <img src="./static/images/9.pdf" width="100%">
-        <img src="./static/images/7.pdf" width="100%">
+          <div style="text-align: center; border: green solid 0px;">
+          <img src="./static/images/8.png" width="80%">
+            </div>
+          <div style="text-align: center; border: green solid 0px;">
+          <img src="./static/images/9.png" width="80%">
+            </div>
+          <div style="text-align: center; border: green solid 0px;">
+        <img src="./static/images/7.png" width="80%">
+            </div>
       </div>
     </div>
 
@@ -320,7 +362,7 @@
          href="">
         <i class="fas fa-file-pdf"></i>
       </a>
-      <a class="icon-link" href="https://github.com/SpatialVision/Orient-Anything" class="external-link" disabled>
+      <a class="icon-link" href="https://github.com/DepthAnything/Depth-Anything-V2" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
     </div>
